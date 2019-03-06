@@ -2,47 +2,18 @@
   font-family: Verdana, Geneva, sans-serif;
 }
 
-.content {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-}
+.content {}
 
-.header {
+.header,
+h2 {
   text-align: center;
 }
 
+.header {
+  font-size: 1.5vw;
+}
+
 .responsive {
-  width: 100%;
+  max-width: 100%;
   height: auto;
-}
-
-/* Container holding the image and the text */
-
-.container {
-  position: relative;
-  display: block;
-}
-
-/* Bottom right text */
-
-.text-block {
-  position: absolute;
-  /* Position the background text */
-  bottom: 0;
-  /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0);
-  /* Fallback color */
-  background: rgba(0, 0, 0, 0.5);
-  /* Black background with 0.5 opacity */
-  color: #f1f1f1;
-  /* Grey text */
-  width: auto;
-  /* Full width */
-  padding: 20px;
-  /* Some padding */
-}
-
-#tribute-info {
-  margin: auto;
 }
