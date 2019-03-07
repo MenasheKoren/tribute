@@ -2,18 +2,33 @@
   font-family: Verdana, Geneva, sans-serif;
 }
 
-.content {}
-
-.header,
-h2 {
+h1, h2, h3 {
   text-align: center;
 }
 
-.header {
-  font-size: 1.5vw;
+q {
+  font-style: italic;
+  font-weight: bold;
+  color: grey;
 }
-
-.responsive {
+.content {
+  display: flex;
+  flex-direction: column;
   max-width: 100%;
   height: auto;
+  align-items: center;
+}
+
+ul {
+  padding: 0 10% 0 10% ;
+  font-size: 1.15em;
+  text-align: justify;
+}
+
+li {
+  margin: 1em 0;
+}
+
+.quote {
+  font-style: italic;
 }
